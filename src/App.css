@@ -86,4 +86,9 @@ body {
   margin-bottom: 40px;
   font-size: 36px;
 }
+
+.app .error {
+  color: red;
+  text-align: center;
+}
 /*# sourceMappingURL=App.css.map */
