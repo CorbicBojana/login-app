@@ -1,0 +1,89 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app .intro {
+  background-image: url("https://colorlib.com/etc/lf/Login_v18/images/bg-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.app .form {
+  background-color: #f7f7f7;
+  width: 50%;
+  height: 100%;
+}
+
+.app .form .login {
+  display: block;
+  font-size: 40px;
+  color: #111;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 20% 0 10% 0;
+}
+
+.app .form .login-text,
+.app .form .login-password {
+  margin: 40px;
+}
+
+.app .form .login-text .login-input,
+.app .form .login-password .login-input {
+  padding: 16px;
+  border: 1px solid #111;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 28px;
+  outline: none;
+}
+
+.app .login-button {
+  text-align: center;
+}
+
+.app .login-button .button {
+  padding: 10px 180px;
+  background-color: #6675df;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.app .login-button .button:hover {
+  color: #111;
+}
+
+.app .welcome {
+  width: 50%;
+  text-align: center;
+  margin: 120px 0;
+}
+
+.app .welcome h2 {
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+/*# sourceMappingURL=App.css.map */
